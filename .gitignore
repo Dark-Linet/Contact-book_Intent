@@ -1,15 +1,28 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Временные файлы сборки Gradle
+.gradle/
+build/
+
+# Локальные конфиги (содержат пути к SDK и ключи, не должны быть в Git)
 local.properties
+
+# Файлы настроек Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Исключение для папки .idea: если хотите делиться общим стилем кода (необязательно)
+# !.idea/codeStyles/
+
+# Настройки устройства и логи
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
+
+# Системные файлы (Mac и Windows)
+.DS_Store
+Thumbs.db
+
+# Файлы профайлера и кэш
+*.hprof
