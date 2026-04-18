@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Contact-book_Intent</string>
+    <string name="Phone_number"> +7 (495) 123–45–67</string>
 </resources>
